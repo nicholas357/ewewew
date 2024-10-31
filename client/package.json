@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "mkdir -p dist && webpack",
+    "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview"
   },
